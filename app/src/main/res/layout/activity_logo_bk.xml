@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f03232"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logolk"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="145dp"
+            android:background="@drawable/anhdd"/>
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tv_app"-->
+        <!--            android:layout_width="328dp"-->
+        <!--            android:layout_height="280dp"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginTop="220dp"-->
+        <!--            android:layout_marginEnd="130dp"-->
+        <!--            android:layout_marginBottom="463dp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:text="Now"-->
+        <!--            android:textColor="#f0f0f0"-->
+        <!--            android:textSize="70dp"-->
+        <!--            android:textStyle="bold"/>-->
+
+        <TextView
+            android:id="@+id/solgan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="43dp"
+            android:text="Yêu là phải nói cũng như đói là phải ăn"
+            android:textColor="#f0f0f0"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:layout_below="@+id/logolk"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/solgan"
+            android:gravity="center"
+            android:layout_marginTop="100dp">
+            <ProgressBar
+                android:layout_width="79dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/solgan"
+                android:layout_toLeftOf="@+id/textView"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loading...."
+                android:textColor="#f0f0f0"
+                android:textSize="35dp"
+                android:layout_below="@+id/solgan"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

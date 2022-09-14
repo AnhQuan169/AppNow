@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:visible="true"
+        android:enabled="true">
+        <item
+            android:id="@+id/thuoc"
+            android:title="Thuốc" />
+        <item
+            android:id="@+id/thucung"
+            android:title="Thú cưng" />
+        <item
+            android:id="@+id/giatui"
+            android:title="Giặt ủi" />
+        <item
+            android:id="@+id/giaohang"
+            android:title="Giao hàng" />
+        <item
+            android:id="@+id/datban"
+            android:title="Đặt bàn" />
+        <item
+            android:id="@+id/salon"
+            android:title="Salon" />
+        <item
+            android:id="@+id/giupviec"
+            android:title="Giúp việc" />
+    </group>
+</menu>

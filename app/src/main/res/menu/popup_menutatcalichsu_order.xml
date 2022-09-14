@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:visible="true"
+        android:enabled="true">
+        <item
+            android:id="@+id/tatca"
+            android:title="Tất cả" />
+        <item
+            android:id="@+id/dahuy"
+            android:title="Đã hủy" />
+        <item
+            android:id="@+id/hoanthanh"
+            android:title="Hoàn thành" />
+    </group>
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#ffffff"
+    android:id="@+id/rela">
+
+    <TextView
+        android:id="@+id/textprovince"
+        android:layout_marginLeft="10dp"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:text="Đà Nẵng"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/sodiadiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textprovince"
+        android:text="7110 địa điểm"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>

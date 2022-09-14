@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gridbst"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imageViewbst"
+            android:src="@drawable/bst1"/>
+
+        <TextView
+            android:id="@+id/idnamechinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewbst"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Combo x3 với thẻ Visa"
+            android:textSize="25dp"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

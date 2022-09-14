@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.bosuutap1.GridBosuutap.GridItemBSTActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/idbackgridbst"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back"/>
+
+
+        <TextView
+            android:id="@+id/tenchitietbst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bộ sưu tập"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageViewbst"
+            android:src="@drawable/bst1"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idnamechinh"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Combo x3 với thẻ Visa"
+                android:layout_below="@+id/imageViewbst"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="900dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.appbar.AppBarLayout
+                    android:id="@+id/appBarLayoutbst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white">
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tabLayoutbst"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        app:tabGravity="fill"
+                        app:tabMaxWidth="0dp"
+                        app:tabMode="fixed"
+                        app:tabTextAppearance="@style/TabLayoutStyleHome"
+                        app:tabSelectedTextColor="@color/colorprimary"
+                        app:tabTextColor="@color/colorprimary">
+
+                    </com.google.android.material.tabs.TabLayout>
+
+                </com.google.android.material.appbar.AppBarLayout>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPagerbst"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

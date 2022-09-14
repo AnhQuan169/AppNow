@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:id="@+id/relabanchay"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/idimgbanchay"
+            android:layout_width="160dp"
+            android:layout_height="150dp"/>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/idtenmonanbanchay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="27dp"
+                android:textColor="#000000"
+                android:drawableStart="@drawable/ic_beenhere"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/iddiachibanchay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:textColor="@color/gray"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dgsao"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_star"
+                    android:text="4.8"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sokm"
+                    android:textSize="20dp"
+                    android:text="607.1km"
+                    android:layout_marginLeft="250dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/idgiabanchay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Giảm món"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#F80202"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_toanphan"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:text="1 địa điểm khác"
+        android:textSize="20dp"
+        android:textColor="#1886DD"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:drawableEnd="@drawable/ic_navigate_next"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
